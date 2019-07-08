@@ -31,4 +31,3 @@ Tests are developed using
 It's possible to see the tests execution using VNC Viewer:
   * Download: https://www.realvnc.com/en/connect/download/viewer/
   * Enter VNC Server: 127.0.0.1:5900 (password: secret)
-# takeaway_tests

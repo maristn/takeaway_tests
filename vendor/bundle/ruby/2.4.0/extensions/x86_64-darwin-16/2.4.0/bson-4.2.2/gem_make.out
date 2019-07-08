@@ -1,0 +1,41 @@
+current directory: /Users/mariana/dev/integration-tests-v2/vendor/bundle/ruby/2.4.0/gems/bson-4.2.2/ext/bson
+/Users/mariana/.rvm/rubies/ruby-2.4.0/bin/ruby -r ./siteconf20171013-9973-k02g5n.rb extconf.rb
+creating Makefile
+
+current directory: /Users/mariana/dev/integration-tests-v2/vendor/bundle/ruby/2.4.0/gems/bson-4.2.2/ext/bson
+make "DESTDIR=" clean
+
+current directory: /Users/mariana/dev/integration-tests-v2/vendor/bundle/ruby/2.4.0/gems/bson-4.2.2/ext/bson
+make "DESTDIR="
+compiling bson_native.c
+bson_native.c:215:27: warning: implicit conversion loses integer precision: 'long' to 'uint32_t' (aka 'unsigned int') [-Wshorten-64-to-32]
+  const uint32_t length = FIX2LONG(i);
+                 ~~~~~~   ^~~~~~~~~~~
+/Users/mariana/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:363:21: note: expanded from macro 'FIX2LONG'
+#define FIX2LONG(x) RB_FIX2LONG(x)
+                    ^~~~~~~~~~~~~~
+/Users/mariana/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:347:25: note: expanded from macro 'RB_FIX2LONG'
+#define RB_FIX2LONG(x) ((long)RSHIFT((SIGNED_VALUE)(x),1))
+                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+bson_native.c:451:46: warning: implicit conversion loses integer precision: 'long' to 'int32_t' (aka 'int') [-Wshorten-64-to-32]
+  const int32_t length = RSTRING_LEN(string) + 1;
+                ~~~~~~   ~~~~~~~~~~~~~~~~~~~~^~~
+bson_native.c:484:28: warning: implicit conversion loses integer precision: 'long' to 'int32_t' (aka 'int') [-Wshorten-64-to-32]
+  const int32_t position = NUM2LONG(index);
+                ~~~~~~~~   ^~~~~~~~~~~~~~~
+/Users/mariana/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:644:21: note: expanded from macro 'NUM2LONG'
+#define NUM2LONG(x) RB_NUM2LONG(x)
+                    ^~~~~~~~~~~~~~
+/Users/mariana/.rvm/rubies/ruby-2.4.0/include/ruby-2.4.0/ruby/ruby.h:643:24: note: expanded from macro 'RB_NUM2LONG'
+#define RB_NUM2LONG(x) rb_num2long_inline(x)
+                       ^~~~~~~~~~~~~~~~~~~~~
+In file included from bson_native.c:21:
+./native-endian.h:196:15: warning: unused function '__bson_double_swap_slow' [-Wunused-function]
+static double __bson_double_swap_slow(double v)
+              ^
+4 warnings generated.
+linking shared-object bson_native.bundle
+
+current directory: /Users/mariana/dev/integration-tests-v2/vendor/bundle/ruby/2.4.0/gems/bson-4.2.2/ext/bson
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bson_native.bundle ./.gem.20171013-9973-wfsibr

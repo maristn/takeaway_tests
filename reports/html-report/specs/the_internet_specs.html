@@ -1,0 +1,2327 @@
+
+	
+	
+  <!doctype html>
+  <html><head>
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+    <meta charset="utf-8" />
+    <title>Gauge Test Results</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="../css/open-sans.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  </head>
+  <body>
+  <header class="top">
+    <div class="header">
+      <div class="container">
+        <div class="logo">
+          <a href=".."><img src="../images/gaugeLogo.png" alt="Report logo"></a>
+        </div>
+        <h2 class="project">Project: app</h2>
+      </div>
+    </div>
+  </header>
+  <main class="main-container">
+  <div class="container">
+
+	
+  <div class="report-overview">
+    <div class="report_chart">
+      <div class="chart">
+        <svg id="pie-chart" data-results="0,0,1" data-total="1">
+          <path class="status failed" />
+          <path class="shadow failed" data-status="failed"><title>Failed: 0/1</title></path>
+          <path class="status passed" />
+          <path class="shadow passed" data-status="passed"><title>Passed: 0/1</title></path>
+          <path class="status skipped" />
+          <path class="shadow skipped" data-status="skipped"><title>Skipped: 1/1</title></path>
+        </svg>
+      </div>
+    </div>
+    <div class="report_test-results">
+      <div class="report_test-result specs">
+          <div class="total-specs" title="Filter all specs"><span class="txt">Total specs</span><span class="value">1</span></div>
+          <div class="fail spec-filter" data-status="failed" title="Filter failed specs"><span class="value">0</span></div>
+          <div class="pass spec-filter" data-status="passed" title="Filter passed specs"><span class="value">0</span></div>
+          <div class="skip spec-filter" data-status="skipped" title="Filter skipped specs"><span class="value">1</span></div>
+      </div>
+      <div class="report_test-result scenarios">
+          <div class="total-scenarios"><span class="txt">Total scenario</span><span class="value">5</span></div>
+          <div class="fail scenario-stats" data-status="failed"><span class="value">0</span></div>
+          <div class="pass scenario-stats" data-status="passed"><span class="value">0</span></div>
+          <div class="skip scenario-stats" data-status="skipped"><span class="value">5</span></div>
+      </div>
+    </div>
+    <div class="report_details">
+      <ul>
+        <li>
+          <label>Environment </label>
+          <span>default</span>
+        </li>
+        
+        <li>
+          <label>Success Rate </label>
+          <span>0%</span>
+        </li>
+        <li>
+          <label>Total Time </label>
+          <span>00:00:00</span>
+        </li>
+        <li>
+          <label>Generated On </label>
+          <span>Jul 4, 2019 at 9:03pm</span>
+        </li>
+      </ul>
+      
+  
+
+      
+  
+
+    </div>
+  </div>
+
+
+	
+
+	
+
+	
+		<div class="specifications">
+		
+  
+    <aside class="sidebar">
+      <h3 class="title">Specifications</h3>
+      <div class="searchbar">
+        <input id="searchSpecifications" placeholder="Type specification or tag name" type="text" />
+        <i class="fa fa-search"></i>
+      </div>
+      <div class='specs-sorting'>
+        <div class="sort sort-specs-name" data-sort-by="specs-name"><span class='sort-icons'><i class="fa fa-caret-up"></i><i class="fa fa-caret-down"></i></span><span>Name</span></div>
+        <div class="sort sort-execution-time" data-sort-by="execution-time"><span class='sort-icons'><i class="fa fa-caret-up"></i><i class="fa fa-caret-down"></i></span><span>Execution time</span></div>
+      </div>
+      <div id="listOfSpecifications">
+        <ul id="scenarios" class="spec-list">
+        
+          <a href="the_internet_specs.html">
+             
+              <li class='skipped spec-name'>
+            
+              <span id="scenarioName" class="scenarioname">Takeaway.com Tests</span>
+              <span id="time" class="time">00:00:00</span>
+            </li>
+          </a>
+          
+        </ul>
+      </div>
+    </aside>
+  
+
+		
+  
+	
+  <div id="specificationContainer" class="details">
+    <header class="curr-spec">
+      <div class="spec-head-wrapper">
+        <h3 class="spec-head" title="/app/specs/the_internet_specs.md">Takeaway.com Tests</h3>
+        <div class="hidden report_test-results" alt="Scenarios" title="Scenarios">
+          <ul>
+            <li class="fail"><span class="value">0</span><span class="txt">Failed</span></li>
+            <li class="pass"><span class="value">0</span><span class="txt">Passed</span></li>
+            <li class="skip"><span class="value">5</span><span class="txt">Skipped</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="spec-meta">
+        <div class="spec-filename">
+          <label for="specFileName">File Path</label>
+          <input id="specFileName" value="/app/specs/the_internet_specs.md" readonly/>
+          <button class="clipboard-btn" data-clipboard-target="#specFileName" title="Copy to Clipboard">
+              <i class="fa fa-clipboard" aria-hidden="true" title="Copy to Clipboard"></i>
+          </button>
+        </div>
+        <span class="time">00:00:00</span>
+      </div>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> takeway</span>
+      
+    </div>
+  
+
+	</header>
+	<div id="specItemsContainer">
+	
+    
+  
+
+    
+    
+
+    <div class="content">
+    
+  
+  <span><p>This is an executable specification file. This file follows markdown syntax.
+Every heading in this file denotes a scenario. Every bulleted point denotes a step.</p>
+</span>
+  
+  
+
+  
+
+      
+        
+	
+  <div class='scenario-container skipped'>
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">001 - Login Success</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login</span>
+      
+        <span> success</span>
+      
+    </div>
+  
+
+	</div>
+  
+  
+
+  
+  
+
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info not-executed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Open the url 
+      </span>
+    
+  
+    
+      <span class='parameter'>"https://www.thuisbezorgd.nl"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info not-executed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Type the postcalcode 
+      </span>
+    
+  
+    
+      <span class='parameter'>"8889AA"</span>
+    
+  
+    
+      <span>
+         and press enter
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    <span><p>&lt;!–</p>
+</span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Type 
+      </span>
+    
+  
+    
+      <span class='parameter'>"tomsmith"</span>
+    
+  
+    
+      <span>
+         for username and 
+      </span>
+    
+  
+    
+      <span class='parameter'>"SuperSecretPassword!"</span>
+    
+  
+    
+      <span>
+         for password
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Click on 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login"</span>
+    
+  
+    
+      <span>
+         button
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        The text 
+      </span>
+    
+  
+    
+      <span class='parameter'>"You logged into a secure area!"</span>
+    
+  
+    
+      <span>
+         must be displayed
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    <span><p>Description</p>
+
+<p>For your test case you may use Thuisbezorgd.nl and test the order flow. To prevent placing</p>
+
+<p>actual orders, use postcalcode 8889AA which will return test restaurants.</p>
+
+<ul>
+<li><p>Select QA Restaurant Selenium</p></li>
+
+<li><p>Add multiple products to your basket</p></li>
+
+<li><p>Fill your basket with 1x Coke, 1x Duck Breast with Tomato and 1x Pizza Salami.</p></li>
+
+<li><p>Add the following comment ‘no sugar’ to any of the products in your basket</p></li>
+
+<li><p>Place order with online payment method iDEAL (any bank is OK)</p></li>
+
+<li><p>Cancel iDEAL order and return to checkout</p></li>
+
+<li><p>Select cash payment and proceed with your order</p></li>
+</ul>
+</span>
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container skipped'>
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">002 - Login Failure - Wrong username</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login</span>
+      
+        <span> failure</span>
+      
+    </div>
+  
+
+	</div>
+  
+  
+
+  
+  
+
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info not-executed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Open the url 
+      </span>
+    
+  
+    
+      <span class='parameter'>"https://the-internet.herokuapp.com/login"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Type 
+      </span>
+    
+  
+    
+      <span class='parameter'>"milo"</span>
+    
+  
+    
+      <span>
+         for username and 
+      </span>
+    
+  
+    
+      <span class='parameter'>"SuperSecretPassword!"</span>
+    
+  
+    
+      <span>
+         for password
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Click on 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login"</span>
+    
+  
+    
+      <span>
+         button
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        The text 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Your username is invalid!"</span>
+    
+  
+    
+      <span>
+         must be displayed
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container skipped'>
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">003 - Login Failure - Wrong password</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login</span>
+      
+        <span> failure</span>
+      
+    </div>
+  
+
+	</div>
+  
+  
+
+  
+  
+
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info not-executed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Open the url 
+      </span>
+    
+  
+    
+      <span class='parameter'>"https://the-internet.herokuapp.com/login"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Type 
+      </span>
+    
+  
+    
+      <span class='parameter'>"tomsmith"</span>
+    
+  
+    
+      <span>
+         for username and 
+      </span>
+    
+  
+    
+      <span class='parameter'>"milo"</span>
+    
+  
+    
+      <span>
+         for password
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Click on 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login"</span>
+    
+  
+    
+      <span>
+         button
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        The text 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Your password is invalid!"</span>
+    
+  
+    
+      <span>
+         must be displayed
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container skipped'>
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">004 - Hovers</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> hovers</span>
+      
+    </div>
+  
+
+	</div>
+  
+  
+
+  
+  
+
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info not-executed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Open the url 
+      </span>
+    
+  
+    
+      <span class='parameter'>"http://the-internet.herokuapp.com/hovers"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Hover over the 
+      </span>
+    
+  
+    
+      <span class='parameter'>"user1"</span>
+    
+  
+    
+      <span>
+         avatar picture
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        The username 
+      </span>
+    
+  
+    
+      <span class='parameter'>"user1"</span>
+    
+  
+    
+      <span>
+         must be displayed
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Hover over the 
+      </span>
+    
+  
+    
+      <span class='parameter'>"user2"</span>
+    
+  
+    
+      <span>
+         avatar picture
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        The username 
+      </span>
+    
+  
+    
+      <span class='parameter'>"user2"</span>
+    
+  
+    
+      <span>
+         must be displayed
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Hover over the 
+      </span>
+    
+  
+    
+      <span class='parameter'>"user3"</span>
+    
+  
+    
+      <span>
+         avatar picture
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        The username 
+      </span>
+    
+  
+    
+      <span class='parameter'>"user3"</span>
+    
+  
+    
+      <span>
+         must be displayed
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container skipped'>
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">005 - Sortable data table</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> table</span>
+      
+    </div>
+  
+
+	</div>
+  
+  
+
+  
+  
+
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info not-executed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Open the url 
+      </span>
+    
+  
+    
+      <span class='parameter'>"http://the-internet.herokuapp.com/tables"</span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Check if the table is ordered alphabetically
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Click on 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Last Name"</span>
+    
+  
+    
+      <span>
+         from 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Example 2"</span>
+    
+  
+    
+      <span>
+         table
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Check if the table is ordered alphabetically
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Click on 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Last Name"</span>
+    
+  
+    
+      <span>
+         from 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Example 2"</span>
+    
+  
+    
+      <span>
+         table
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+  <div class='step-info skipped'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+
+  
+  
+
+  
+  
+  
+    
+      <span>
+        Check if the table is ordered alphabetically
+      </span>
+    
+  
+  </div>
+
+  
+    
+    
+  
+
+    
+  
+
+  
+  
+  
+  
+
+  
+  
+
+	</li></ul></div></div>
+  
+    
+        
+  <div class="message-container">
+    <h4 class="skipReason">Skipped Reason: Step implementation not found</h4>
+  </div>
+
+    
+  
+
+  
+
+  
+    
+  
+    <span><p>–&gt;</p>
+</span>
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+	
+	</div>
+
+      
+
+    </div>
+    </div>
+
+    
+  
+
+    
+    
+    </div>
+  
+
+		</div>
+	
+
+ 	</div>
+	</main>
+	
+  <footer class="footer">
+    <div class="container">
+      <p>Generated by Gauge HTML Report</p>
+    </div>
+  </footer>
+
+	
+    <script type="text/javascript">
+      var loadingImage = "../images/loading.gif";
+      var closeButton = "../images/close.gif";
+    </script>
+    <script src="../js/lightbox.js"></script>
+    <script src="../js/jquery-3.1.0.min.js" type="text/javascript"></script>
+    <script src="../js/auto-complete.min.js" type="text/javascript"></script>
+    <script src="../js/clipboard.min.js" type="text/javascript"></script>
+    <script src="../js/search_index.js" type="text/javascript"></script>
+    <script src="../js/main.js" type="text/javascript"></script>
+    </body>
+  </html>
+
