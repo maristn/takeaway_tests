@@ -1,7 +1,7 @@
 # Setup
 
 - Clone the project
-> git clone git@github.com:maristn/takeaway_tests.git && cd takeaway
+> git clone git@github.com:maristn/takeaway_tests.git && cd takeaway_tests
 
 - Build the project
 > docker-compose build
